@@ -45,8 +45,7 @@ body
 {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 13px;
-    line-height: 1.2;
+    font-size: 18px;
 }
 
 @font-face 
@@ -78,4 +77,113 @@ body
     max-width: 1440px;
     padding: 0 10px;
     margin: 0 auto;
+}
+/* ================================ Header =========================== */
+.header
+{
+    background-image: url(../img/header-bg.png), linear-gradient(#151b13, #234627);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+}
+.nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 81px;
+}
+.nav-list
+{
+    display: flex;
+    gap: 0 100px;
+    flex-wrap: wrap;
+}
+.nav-item
+{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--White);
+}
+.nav-link:hover,
+.nav-link:focus
+{
+    color: var(--MuslimGreen);
+}
+.inner
+{
+    display: flex;
+    justify-content: space-around;
+}
+.block-1
+{
+    display: flex;
+    flex-direction: column;
+}
+.block-1_text
+{
+    font-size: 40px;
+    font-weight: 500;
+    color: var(--White);
+    margin-bottom: 15px;
+}
+.block-1_title
+{
+    font-size: 80px;
+    font-weight: 700;
+    color: var(--MuslimGreen);
+    margin-bottom: 22px;
+}
+.block-1__text
+{
+    color: var(--White);
+    width: 426px;
+    margin-bottom: 37px;
+}
+.form
+{
+    display: flex;
+    border: 3px solid var(--White);
+    border-radius: 38px;
+    margin-bottom: 60px;
+}
+.input
+{
+    color: var(--White);
+    padding: 25px 36px 25px 46px;
+    width: 275px;
+}
+.input::placeholder
+{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 60%);
+}
+.input-btn
+{
+    font-size: 14px;
+    font-weight: 700;
+    background: linear-gradient(#30C600, #363434);
+    border-radius: 38px;
+    padding: 20px 23px;
+    color: var(--White);
+    width: 144px;
+}
+.block-1-text
+{
+    color: var(--White);
+    margin-bottom: 31px;
+}
+.box
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+}
+.box-img
+{
+    width: 260px;
 }
