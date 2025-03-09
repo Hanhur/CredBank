@@ -287,16 +287,24 @@ body
 }
 .need-btn
 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 26px;
     padding: 19px 89px;
     width: 422px;
     height: 62px;
+    border-radius: 7px;
     text-transform: uppercase;
     text-align: center;
     color: var(--White);
     background-color: var(--MuslimGreen);
 }
 /* =========================== Card ===================== */
+.card-inner
+{
+    display: flex;
+}
 .card-box
 {
     position: absolute;
@@ -323,4 +331,66 @@ body
     font-size: 26px;
     width: 864px;
     color: var(--GrayBrown);
+}
+/* ====================== Card Payment ===================== */
+.payment-inner
+{
+    background-image: url(../img/payment-fon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: var(--MuslimGreen);
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.payment-box
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+.payment-title
+{
+    font-size: 80px;
+    font-weight: 500;
+    color: var(--White);
+    margin-bottom: 24px;
+}
+.payment-text
+{
+    font-size: 26px;
+    color: var(--White);
+    width: 543px;
+    margin-bottom: 47px;
+}
+.payment_btn
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    color: var(--White);
+    text-transform: uppercase;
+    border-radius: 7px;
+    padding: 19px 113px;
+    width: 540px;
+    height: 62px;
+    background-color: var(--MuslimGreen);
+    margin-bottom: 24px;
+}
+.payment-btn
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    color: var(--White);
+    text-transform: uppercase;
+    border-radius: 7px;
+    padding: 19px 113px;
+    width: 540px;
+    height: 62px;
+    border: 5px solid var(--White);
 }
