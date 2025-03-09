@@ -66,8 +66,8 @@ body
 :root 
 {
     --White: #FFFFFF;
-    --GraphiteBlack: #1B1B1B;
-    --GraphiteBlack: #181818;
+    --Graphite-Black: #1B1B1B;
+    --Graphite_Black: #181818;
     --GrayBrown: #3D3333;
     --MuslimGreen: #30C600;
 }
@@ -262,4 +262,65 @@ body
 .btn
 {
     padding: 15px 38px;
+}
+/* ============================== Need ==================== */
+.need-block
+{
+    padding-top: 256px;
+    padding-left: 109px;
+    position: absolute;
+}
+.need-title
+{
+    font-size: 60px;
+    font-weight: 500;
+    color: var(--MuslimGreen);
+    width: 704px;
+    margin-bottom: 40px;
+}
+.need-text
+{
+    font-size: 26px;
+    color: var(--White);
+    width: 596px;
+    margin-bottom: 56px;
+}
+.need-btn
+{
+    font-size: 26px;
+    padding: 19px 89px;
+    width: 422px;
+    height: 62px;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--White);
+    background-color: var(--MuslimGreen);
+}
+/* =========================== Card ===================== */
+.card-box
+{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 110px;
+    padding-left: 244px;
+}
+.card-title
+{
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--Graphite-Black);
+    width: 953px;
+    margin-bottom: 21px;
+}
+.card-inner span
+{
+    color: var(--MuslimGreen);
+}
+.card-text
+{
+    font-size: 26px;
+    width: 864px;
+    color: var(--GrayBrown);
 }
